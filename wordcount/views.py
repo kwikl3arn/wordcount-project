@@ -8,5 +8,5 @@ def home(requests):
 
 def main(requests):
     val = requests.POST
-    # print(val)
+    print(val)
     return render(requests, 'main.html', {'val': val})
